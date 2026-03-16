@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroGreeting": {
+      "type": "string"
+    },
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroSubtitle": {
+      "type": "text"
+    },
+    "heroPrimaryLabel": {
+      "type": "string"
+    },
+    "heroSecondaryLabel": {
+      "type": "string"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "servicesLabel": {
+      "type": "string"
+    },
+    "servicesTitle": {
+      "type": "string"
+    },
+    "servicesDescription": {
+      "type": "text"
+    }
+  }
+}

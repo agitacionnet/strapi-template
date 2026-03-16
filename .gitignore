@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.tmp/
+.cache/
+.env
+build/
+*.log
+EOFgit init
+git add .
+git commit -m "Primer commit — Strapi CMS"
