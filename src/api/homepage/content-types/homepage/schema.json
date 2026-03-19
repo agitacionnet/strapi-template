@@ -44,6 +44,28 @@
     },
     "servicesDescription": {
       "type": "text"
+    },
+    "aboutLabel": {
+      "type": "string"
+    },
+    "aboutTitle": {
+      "type": "string"
+    },
+    "aboutDescription": {
+      "type": "text"
+    },
+    "aboutImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "aboutAltImage": {
+      "type": "string"
     }
   }
 }

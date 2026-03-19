@@ -473,6 +473,13 @@ export interface ApiHomepageHomepage extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    aboutAltImage: Schema.Attribute.String;
+    aboutDescription: Schema.Attribute.Text;
+    aboutImage: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
+    aboutLabel: Schema.Attribute.String;
+    aboutTitle: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
